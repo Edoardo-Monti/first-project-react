@@ -18,10 +18,7 @@ function App() {
         <button onClick={() => setCount(count + 1)}>
           count is {count}
         </button>
-        <Footer/>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <Footer />
     </>
   )
 }
