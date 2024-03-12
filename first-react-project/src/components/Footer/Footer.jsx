@@ -1,7 +1,5 @@
-import React from "react"
+import React from "react";
 
-export default function Footer(){
-    return(
-        <p className="read-the-docs">@Questo è il mio footer</p>
-    )
+export default function(){
+    return <h1>Footer</h1>
 }
