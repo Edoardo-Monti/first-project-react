@@ -40,7 +40,7 @@ ul{
 ul li{
     margin: 20px auto;
     font-size: 20px;
-    position: relative;
+    /* position: relative; */
 }
 
 /* ul li::before {
