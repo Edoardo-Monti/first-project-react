@@ -34,7 +34,7 @@ h1{
 }
 
 ul{
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 ul li{
@@ -43,11 +43,16 @@ ul li{
     position: relative;
 }
 
-ul li::before {
+/* ul li::before {
     content: "•"; 
     color: #61DAFB;
     font-size: 40px;
     position: absolute;
     left: -25px;
     top: -11px;
+  } */
+
+  li::marker{
+    font-size: 30px;
+    color: #61DAFB;
   }
